@@ -13,6 +13,7 @@
     "preexport": "npm run build",
     "export": "next export",
     "prestart": "npm run export",
+    "super": "npm run build & npm run export",
     "start": "serve out"
   }
 }
